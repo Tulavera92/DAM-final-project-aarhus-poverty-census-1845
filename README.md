@@ -1,7 +1,7 @@
 # DAM Final Project: Poverty and Social Categories in the 1845 Aarhus Census
 
-**Course:** Digitale arkiver og metoder (Forårssemester 2026)
-**Author:** [Daniel Andrés Ortiz del Villar]  
+**Course:** Digitale arkiver og metoder (Forårssemester 2026)  
+**Author:** Daniel Andrés Ortiz del Villar  
 **Date:** July 2026
 
 ## Project Overview
@@ -37,20 +37,15 @@ This project analyses social categories related to poverty, destitution, and ins
 2. Open the RStudio project (`.Rproj` file).
 3. Run the script:  
    `scripts/01_analysis_aarhus_1845.R`
-   
-   ## Folder Structure
-   
-   data/
-├── raw/               # Original census data
-└── clean/             # Cleaned data with social_category
-figures/               # Visualisations used in the report
-openrefine/            # OpenRefine project archive (cleaning history)
-scripts/               # R analysis scripts
 
+## Folder Structure
+data/
+├── raw/          # Original census data
+└── clean/        # Cleaned data with social_category
+figures/          # Visualisations used in the report
+openrefine/       # OpenRefine project archive (cleaning history)
+scripts/          # R analysis scripts
 
 ## License
 
 This project is licensed under the [Creative Commons Attribution 4.0 International License](LICENSE) (CC BY 4.0).
-
-
-## Folder Structure
