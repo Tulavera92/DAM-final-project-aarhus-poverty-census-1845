@@ -1,6 +1,6 @@
 # DAM Final Project: Poverty and Social Categories in the 1845 Aarhus Census
 
-**Course:** Digitale arkiver og metoder  
+**Course:** Digitale arkiver og metoder (Forårssemester 2026)
 **Author:** [Daniel Andrés Ortiz del Villar]  
 **Date:** July 2026
 
