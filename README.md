@@ -49,4 +49,6 @@ openrefine/       # OpenRefine project archive (cleaning history)
 scripts/          # R analysis scripts
 ```
 
-4.0 International License](LICENSE) (CC BY 4.0).
+## License
+
+This project is licensed under the [Creative Commons Attribution 4.0 International License](LICENSE) (CC BY 4.0).
