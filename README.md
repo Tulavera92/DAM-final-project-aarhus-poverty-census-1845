@@ -38,14 +38,15 @@ This project analyses social categories related to poverty, destitution, and ins
 3. Run the script:  
    `scripts/01_analysis_aarhus_1845.R`
 
-## Folder Structure
+   ## Folder Structure
+
+```
 data/
 ├── raw/          # Original census data
 └── clean/        # Cleaned data with social_category
 figures/          # Visualisations used in the report
 openrefine/       # OpenRefine project archive (cleaning history)
 scripts/          # R analysis scripts
+```
 
-## License
-
-This project is licensed under the [Creative Commons Attribution 4.0 International License](LICENSE) (CC BY 4.0).
+4.0 International License](LICENSE) (CC BY 4.0).
