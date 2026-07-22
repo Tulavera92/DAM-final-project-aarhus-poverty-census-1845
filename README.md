@@ -37,10 +37,15 @@ This project analyses social categories related to poverty, destitution, and ins
 1. Clone this repository.
 2. Open the RStudio project file:  
    `DAM-final-project-aarhus-poverty-census-1845.Rproj`
-3. Run the script:  
-   `scripts/01_analysis_aarhus_1845.R`
+3. Install the required package (only needed the first time):
 
-The script will print a frequency table and automatically save two plots into the `figures/` folder.
+   ```r
+   install.packages("tidyverse")
+
+4. Run the script:
+ scripts/01_analysis_aarhus_1845.R
+
+The script will print a frequency table and automatically save two plots into the figures/ folder.
 
 ## Folder Structure
 
@@ -52,7 +57,6 @@ openrefine/       # OpenRefine project archive (cleaning history)
 output/           # Additional outputs (if any)
 scripts/          # R analysis scripts
 
-
 ## License
 
-This project is licensed under the [Creative Commons Attribution 4.0 International License](LICENSE) (CC BY 4.0).
+This project is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
