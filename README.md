@@ -1,6 +1,6 @@
 # DAM Final Project: Poverty and Social Categories in the 1845 Aarhus Census
 
-**Course:** Digitale arkiver og metoder (Forårssemester 2026)  
+**Course:** Digitale Archives and Methods (Spring Semester 2026)  
 **Author:** Daniel Andrés Ortiz del Villar  
 **Date:** July 2026
 
@@ -30,24 +30,28 @@ This project analyses social categories related to poverty, destitution, and ins
 2. **Analysis and visualisation** were done in R using the `tidyverse` package.
    - Frequency counts of social categories
    - Age distribution of the “Destitute / Supported by relief” group
+   - Figures are automatically saved to the `figures/` folder when the script is run
 
 ## How to Reproduce
 
 1. Clone this repository.
-2. Open the RStudio project (`.Rproj` file).
+2. Open the RStudio project file:  
+   `DAM-final-project-aarhus-poverty-census-1845.Rproj`
 3. Run the script:  
    `scripts/01_analysis_aarhus_1845.R`
 
-   ## Folder Structure
+The script will print a frequency table and automatically save two plots into the `figures/` folder.
 
-```
+## Folder Structure
+
 data/
 ├── raw/          # Original census data
 └── clean/        # Cleaned data with social_category
-figures/          # Visualisations used in the report
+figures/          # Visualisations produced by the analysis script
 openrefine/       # OpenRefine project archive (cleaning history)
+output/           # Additional outputs (if any)
 scripts/          # R analysis scripts
-```
+
 
 ## License
 
